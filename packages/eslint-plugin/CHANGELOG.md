@@ -7,11 +7,15 @@ and adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 <!-- ## [Unreleased] -->
 
+### Added
+
+- Added `id` field to `graphql/required-fields` rule. ([#166](https://github.com/Shopify/web-foundation/pull/166)).
+
 ## [37.0.0] - 2020-05-19
 
 ### Added
 
-The following new rules were introduced. More information can be found ([#157](https://github.com/Shopify/web-foundation/pull/157)).
+The following new rules were introduced. More information can be found ([#157](https://github.com/Shopify/web-foundation/pull/157))
 - [`react/jsx-no-script-url`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-script-url.md)
 
 Facebook improved the `eslint-plugin-react-hooks` plugin. We may have to update the dependencies of some hooks.
